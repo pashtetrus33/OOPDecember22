@@ -15,7 +15,7 @@ public class Main {
             System.out.println(i.runSpeed() + "km/h");
         }
         System.out.println(zoo.getChampionRunSpeed());
-        System.out.println("----------------------------------------");
+        System.out.println("--------------------------------------------");
         for (Flyable i: zoo.getFlyable())
         {
             System.out.println("Flyables speeds:\n" + i.flySpeed() + " km/h");
